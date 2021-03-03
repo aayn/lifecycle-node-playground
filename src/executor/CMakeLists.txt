@@ -43,7 +43,7 @@ set(library_name ${executable_name}_core)
 
 add_library(${library_name} SHARED
   src/executor_lifecycle.cpp
-  src/executor_manager.cpp
+#   src/executor_manager.cpp
 #   src/ros_topic_logger.cpp
 )
 
